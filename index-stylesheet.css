@@ -1,0 +1,101 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+    position: fixed;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    padding-right: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'DM sans', sans-serif;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #a4ac74;
+  }
+
+  /* Navbar */
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fotos/hero.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+   
+}
+
+  .hero-text {
+    color: white;
+    width: 400px;
+    padding: 10px;
+    padding-left: 140px;
+    padding-top: 50px;
+    margin-top: 100px;
+    position: absolute;
+  }
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.herop {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Hero */
+
+.btn {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background: transparent;
+    color: whitesmoke;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px;
+    bottom: 40px;
+}
+
+.link {
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.link:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+/* Button */
